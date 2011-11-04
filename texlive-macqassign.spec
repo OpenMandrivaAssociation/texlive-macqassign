@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/macqassign
+# catalog-date 2009-03-01 13:29:14 +0100
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-macqassign
 Version:	1
 Release:	1
@@ -39,6 +45,7 @@ TeXLive macqassign package.
 %doc %{_texmfdistdir}/doc/latex/macqassign/logo.ps
 %doc %{_texmfdistdir}/doc/latex/macqassign/sample-assign.pdf
 %doc %{_texmfdistdir}/doc/latex/macqassign/sample-assign.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ TeXLive macqassign package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
