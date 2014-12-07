@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-macqassign
 Version:	1
-Release:	8
+Release:	9
 Summary:	Typeset assignments for Macquarie University
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/macqassign
