@@ -9,7 +9,7 @@ Version:	1
 Release:	12
 Summary:	Typeset assignments for Macquarie University
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/macqassign
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/macqassign
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macqassign.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macqassign.doc.tar.xz
